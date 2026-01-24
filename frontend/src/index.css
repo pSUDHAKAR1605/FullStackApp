@@ -1,0 +1,29 @@
+.card{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin:10px;
+    text-align: center;
+    display:inline-block;
+    box-shadow:15px 17px 33px gray;
+    max-width:250px;
+}
+
+.card .profile-pic{
+    max-width: 55%;
+    height:auto;
+    border-radius: 50%;
+}
+
+.card .name{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card .text{
+    font-size: 16px;
+    color: #555;
+    font-family: Arial, sans-serif;
+}
